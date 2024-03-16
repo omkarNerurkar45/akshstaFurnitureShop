@@ -107,7 +107,7 @@ a{
     color: #febd21;
 }
 
-.about {
+#about {
     background-color: #febd21;
     height: 600px;
     display: flex;
@@ -148,4 +148,47 @@ a{
     color: #000;
     transition: 0.6s;
     box-shadow: inherit;
+}
+
+.card1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    margin-left: 134px;
+    border: 1px solid #febd21;
+}
+
+.card2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60%;
+    margin-left: 694px;
+    margin-bottom: 20px;
+    border: 1px solid #febd21;
+}
+
+.clientCards {
+    display: flex;
+}
+
+.clientCards img {
+    width: 288px;
+    height: 250px;
+    border: none;
+    border-radius: 112px;
+    margin-right: 20px;
+}
+
+.banner1 {
+
+}
+
+.banner2 {
+    display: none;
+}
+
+.banner3 {
+    display: none;
 }
