@@ -1,0 +1,151 @@
+* {
+    font-family: "Poppins", sans-serif;
+    color: #000;
+    margin: 0;
+    padding: 0;
+}
+
+.main {
+   background-image: url('../img/banner-bg.png');
+   height: 90vh;
+   background-repeat: no-repeat;
+   background-size: cover;
+   padding: 25px;
+}
+
+.navBar {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    font-weight: 600;
+}
+
+.navBars i{
+    display: none;
+}
+
+.navBar a:hover{
+    color: #febd21;
+    transition: 0.5s;
+}
+
+
+a{
+    text-decoration: none;
+}
+
+.leftNav {
+    width: 300px;
+    padding-left: 110px;
+}
+
+.middleNav{
+    display: flex;
+    justify-content: space-between;
+    width: 600px;
+}
+
+.rightNav {
+    width: 500px;
+    display: flex;
+    justify-content: space-around;
+    padding-right: 100px;
+}
+
+.contentHome {
+    width: 750px;
+    margin: 122px 600px;
+    text-align: center;
+}
+
+.contentHome h1{
+    padding-bottom: 20px;
+}
+
+.contentHome video{
+    width: 220.1px;
+    height: 298px;
+    position: relative;
+    margin: 7px;
+    margin-right: 94px;
+    margin-top: 113px;
+    overflow: hidden;
+}
+.content {
+    text-align: center;
+    width: 60%;
+    margin: 40px 384px;
+}
+.contentList {
+    display: flex;
+    justify-content: space-around;
+}
+
+.card {
+    width: 400px;
+    text-align: center;
+    padding: 20px;
+}
+
+.card button {
+    border: none;
+    height: 53px;
+    width: 182px;
+    border-radius: 10px;
+    margin: 25px;
+    background-color: #febd21;
+    cursor: pointer;
+}
+
+.card button:hover {
+    background-color: #000;
+    color: #FFF;
+    transition: 0.6s;
+}
+
+.card span{
+    color: #febd21;
+}
+
+.about {
+    background-color: #febd21;
+    height: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.textAbout {
+    width: 834px;
+    text-align: center;
+    color: white;
+}
+
+.textAbout h2, .textAbout p{
+    color: white;    
+}
+
+.textAbout button {
+    width: 200px;
+    height: 60px;
+    background-color: #000;
+    color: whitesmoke;
+    border-radius: 20px;
+    border: none;
+    margin: 40px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.imageAbout img{
+    width: 500px;
+    height: 500px;
+    border-radius: 190px;
+}
+
+.textAbout button:hover {
+    background-color: white;
+    color: #000;
+    transition: 0.6s;
+    box-shadow: inherit;
+}

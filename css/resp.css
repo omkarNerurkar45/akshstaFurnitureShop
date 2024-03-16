@@ -1,0 +1,159 @@
+@media (max-width: 430px) {
+    .main {
+        background-image: url('../img/banner-bg1.png');
+        width: 378px;
+        background-repeat: no-repeat;
+        background-size: cover;
+        padding: 25px;
+     }
+
+    .navBars i{
+        display: flex;
+        margin-left: 310px;
+    }
+    
+    .navBar a:hover{
+        color: #febd21;
+        transition: 0.5s;
+    }
+    
+    
+    a{
+        text-decoration: none;
+    }
+    
+    .leftNav {
+        width: 30px;
+        padding-left: 10px;
+        display: none;
+    }
+    
+    .fa-solid fa-bars {
+        width: 20px;
+    }
+
+
+    .middleNav{
+        display: none;
+        justify-content: space-between;
+        width: 60px;
+    }
+    
+    .rightNav {
+        width: 50px;
+        display: none;
+        justify-content: space-around;
+        padding-right: 10px;
+    }
+
+    .contentHome {
+        width: 200px;
+        margin: 8px -8px;
+        text-align: center;
+    }
+
+    .contentHome p{
+        width: 229px;
+    }
+
+    .contentHome h1{
+        padding-bottom: 20px;
+        width: 336px;
+        color: #febd21;
+        margin-top: 71px;
+        
+    }
+    
+    .contentHome video{
+        display: none;
+        width: 220.1px;
+        height: 298px;
+        position: relative;
+        margin: 7px;
+        margin-right: 94px;
+        margin-top: 113px;
+        overflow: hidden;
+    }
+
+    .content {
+        text-align: center;
+        width: 85%;
+        margin: 40px 30px;
+    }
+
+    .contentList {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .card {
+        width: 386px;
+        text-align: center;
+        padding: 20px;
+    }
+    
+    .card button {
+        border: none;
+        height: 53px;
+        width: 182px;
+        border-radius: 10px;
+        margin: 25px;
+        background-color: #febd21;
+        cursor: pointer;
+    }
+    
+    .card button:hover {
+        background-color: #000;
+        color: #FFF;
+        transition: 0.6s;
+    }
+    
+    .card span{
+        color: #febd21;
+    }
+    .about {
+        background-color: #febd21;
+        height: 1036px;
+        width: 430px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+    }
+    
+    .textAbout {
+        width: 250px;
+        text-align: center;
+        color: whitesmoke;
+    }
+    
+    .textAbout h2, .textAbout p{
+        color: white;  
+        margin-top: 18px;  
+    }
+    
+    .textAbout button {
+        width: 200px;
+        height: 60px;
+        background-color: #000;
+        color: whitesmoke;
+        border-radius: 20px;
+        border: none;
+        margin: 40px;
+        font-weight: 500;
+        cursor: pointer;
+    }
+    
+    .imageAbout img{
+        display: none;
+        width: 20px;
+        height: 50px;
+        border-radius: 190px;
+    }
+    
+    .textAbout button:hover {
+        background-color: white;
+        color: #000;
+        transition: 0.6s;
+    }
+}
