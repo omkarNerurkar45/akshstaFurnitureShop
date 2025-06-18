@@ -150,27 +150,17 @@ a{
     box-shadow: inherit;
 }
 
-.card1 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 80%;
-    margin-left: 134px;
-    border: 1px solid #febd21;
-}
-
-.card2 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 60%;
-    margin-left: 694px;
-    margin-bottom: 20px;
-    border: 1px solid #febd21;
+.reviews h2{
+    margin-left: 38%;
 }
 
 .clientCards {
-    display: flex;
+    display: block;
+    height: 600px;
+    animation: 11s linear 3s infinite running slidein;
+    margin-left: auto;
+    margin-right: auto;
+    margin-left: 236px;
 }
 
 .clientCards img {
@@ -181,14 +171,188 @@ a{
     margin-right: 20px;
 }
 
-.banner1 {
 
+@keyframes slidein {
+    10% {
+        background-image: url('../img/1Client.png');
+        background-repeat: no-repeat;
+    }
+    50% {
+        background-image: url('../img/client2.png');
+        background-repeat: no-repeat;
+    }  
+
+    100% {
+        background-image: url('../img/1Client.png');
+        background-repeat: no-repeat;
+    }
 }
 
-.banner2 {
-    display: none;
+#contact {
+    background-color: #febd21;
+    display: flex;
+    padding-bottom: 20px;
 }
 
-.banner3 {
-    display: none;
+.details {
+    width: 40%;
+    margin-left: 148px;
+}
+
+.head h2 {
+    padding-left: 79%;
+    padding-top: 60px;
+}
+
+.first input{
+    color: #989696;
+    height: 9px;
+    font-size: 18px;
+    padding: 22px;
+    margin-top: 60px;
+    border: 0px;
+    border-radius: 9px;
+    padding-right: 372px;
+}
+
+.second input {
+    color: #989696;
+    height: 9px;
+    font-size: 18px;
+    padding: 22px;
+    margin-top: 30px;
+    border: 0px;
+    border-radius: 9px;
+    padding-right: 372px;
+}
+
+.third input {
+    color: #989696;
+    height: 9px;
+    font-size: 18px;
+    padding: 22px;
+    margin-top: 30px;
+    border: 0px;
+    border-radius: 9px;
+    padding-right: 372px;
+}
+
+.forth input {
+    color: #989696;
+    height: 86px;
+    font-size: 18px;
+    padding: 22px;
+    margin-top: 30px;
+    border: 0px;
+    border-radius: 9px;
+    padding-right: 372px;
+}
+
+.buttonContact button {
+    width: 159px;
+    height: 59px;
+    margin-top: 20px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.buttonContact button:hover {
+    background-color: #989696;
+    color: #febd21;
+    transition: 0.6s;
+}
+
+.leftContact {
+    margin-left: 123px;
+}
+
+.img img{
+    margin-left: 170px;
+    margin-top: 160px;
+}
+
+.card1 {
+    border-color: #989696;
+    border: 1px solid grey;
+    border-radius: 89px;
+}
+
+.card2 {
+    border-color: #989696;
+    border: 1px solid grey;
+    border-radius: 89px;
+}
+
+.card1 img {
+    height: 300px;
+    width: 300px;
+    margin-top: 38px;
+    border-radius: 39px;
+}
+
+.card1 h3 {
+    margin-left: 68px;
+}
+
+.card1 p{
+    margin-left: 68px;
+}
+
+.list1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.card1 button {
+    border: none;
+    width: 176px;
+    height: 62px;
+    background-color: #febd21;
+    border-radius: 32px ;
+    margin: 14px 0px 0px 47px;
+    cursor: pointer;
+}
+
+.list2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.card2 img {
+    height: 300px;
+    width: 300px;
+    margin-top: 38px;
+    border-radius: 39px;
+}
+
+.card2 h3 {
+    margin-left: 68px;
+}
+
+.card2 p{
+    margin-left: 68px;
+}
+
+.card2 button {
+    border: none;
+    width: 176px;
+    height: 62px;
+    background-color: #febd21;
+    border-radius: 32px ;
+    margin: 14px 0px 0px 47px;
+}
+
+.card1 button:hover {
+    background-color: #000;
+    color: #FFF;
+    transition: 0.6s;
+}
+
+.card2 button:hover {
+    background-color: #000;
+    color: #FFF;
+    transition: 0.6s;
 }
